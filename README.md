@@ -111,37 +111,6 @@ Top categories
     "expenses": 70000,
     "balance": 80000
 }
-⚙️ Установка проекта
-1. Клонирование репозитория
-git clone https://github.com/yourusername/myfinam.git
-2. Переход в папку проекта
-cd myfinam
-3. Создание виртуального окружения
-python -m venv venv
-4. Активация venv
-Windows
-venv\Scripts\activate
-Linux / macOS
-source venv/bin/activate
-5. Установка зависимостей
-pip install -r requirements.txt
-6. Миграции
-python manage.py makemigrations
-python manage.py migrate
-7. Создание суперпользователя
-python manage.py createsuperuser
-8. Запуск сервера
-python manage.py runserver
-🧪 Тестирование
-Запуск тестов:
-
-python manage.py test
-Тестируются:
-
-transactions services
-subscriptions
-JWT auth
-API permissions
 📌 Особенности проекта
 Использование services layer
 Финансовая бизнес-логика
